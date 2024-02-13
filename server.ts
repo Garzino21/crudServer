@@ -7,7 +7,7 @@ import _cors from "cors";
 
 // Lettura delle password e parametri fondamentali
 _dotenv.config({ "path": ".env" });
-
+ 
 // Variabili relative a MongoDB ed Express
 import { MongoClient, ObjectId } from "mongodb";
 const DBNAME = process.env.DBNAME;
